@@ -1,0 +1,181 @@
+[
+    {
+        "model": "api.user",
+        "pk": 1,
+        "fields": {
+            "first_name": "Angel",
+            "last_name": "Ortiz",
+            "email": "angel@email.com"
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 2,
+        "fields": {
+            "first_name": "Micaela",
+            "last_name": "Ortiz",
+            "email": "micaela@email.com"
+        }
+    },
+    {
+        "model": "api.order",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "date": "2020-12-14",
+            "status": "pending"
+        }
+    },
+    {
+        "model": "api.order",
+        "pk": 2,
+        "fields": {
+            "user": 1,
+            "date": "2020-12-17",
+            "status": "rejected"
+        }
+    },
+    {
+        "model": "api.order",
+        "pk": 3,
+        "fields": {
+            "user": 1,
+            "date": "2020-12-19",
+            "status": "canceled"
+        }
+    },
+    {
+        "model": "api.order",
+        "pk": 4,
+        "fields": {
+            "user": 2,
+            "date": "2020-12-28",
+            "status": "approbed"
+        }
+    },
+    {
+        "model": "api.order",
+        "pk": 5,
+        "fields": {
+            "user": 1,
+            "date": "2020-12-28",
+            "status": "pending"
+        }
+    },
+    {
+        "model": "api.order",
+        "pk": 6,
+        "fields": {
+            "user": 2,
+            "date": "2020-12-30",
+            "status": "rejected"
+        }
+    },
+    {
+        "model": "api.order",
+        "pk": 7,
+        "fields": {
+            "user": 2,
+            "date": "2020-12-31",
+            "status": "pending"
+        }
+    },{
+        "model": "api.orderitem",
+        "pk": 1,
+        "fields": {
+            "order": 1,
+            "description": "The Promised Neverland stickers collection",
+            "quantity": 2,
+            "price": 10.80
+        }
+    },
+    {
+        "model": "api.orderitem",
+        "pk": 2,
+        "fields": {
+            "order": 1,
+            "description": "The Promised Neverland manga Volumen 1",
+            "quantity": 1,
+            "price": 25.00
+        }
+    },{
+        "model": "api.orderitem",
+        "pk": 3,
+        "fields": {
+            "order": 2,
+            "description": "Fullmetal Alchemist Brotherhood poster",
+            "quantity": 2,
+            "price": 12.50
+        }
+    },
+    {
+        "model": "api.orderitem",
+        "pk": 4,
+        "fields": {
+            "order": 2,
+            "description": "Evangelion soundtrack CD 1",
+            "quantity": 1,
+            "price": 25.00
+        }
+    },
+    {
+        "model": "api.orderitem",
+        "pk": 5,
+        "fields": {
+            "order": 3,
+            "description": "Demon Slayer Mugen Train Bluray",
+            "quantity": 1,
+            "price": 45.00
+        }
+    },
+    {
+        "model": "api.orderitem",
+        "pk": 6,
+        "fields": {
+            "order": 4,
+            "description": "Mirai Nikki poster",
+            "quantity": 1,
+            "price": 15.00
+        }
+    },
+    {
+        "model": "api.orderitem",
+        "pk": 7,
+        "fields": {
+            "order": 4,
+            "description": "Mirai Nikki figure Collection",
+            "quantity": 1,
+            "price": 90.00
+        }
+    },
+    {
+        "model": "api.orderitem",
+        "pk": 8,
+        "fields": {
+            "order": 5,
+            "description": "Attack on Titan : Wings of freedom t-shirt",
+            "quantity": 1,
+            "price": 70.00
+        }
+    },
+    {
+        "model": "api.orderitem",
+        "pk": 9,
+        "fields": {
+            "order": 6,
+            "description": "Attack on Titan : Figure collection",
+            "quantity": 1,
+            "price": 125.00
+        }
+    },
+    {
+        "model": "api.orderitem",
+        "pk": 10,
+        "fields": {
+            "order": 7,
+            "description": "Attack on Titan : Complete OST Collection",
+            "quantity": 2,
+            "price": 100.00
+        }
+    }
+]
